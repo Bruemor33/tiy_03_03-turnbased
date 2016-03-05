@@ -15,3 +15,51 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 img {
   max-width: 100%;
 }
+
+body {
+  background-image: url(/app/images/fantasy-background.jpg);
+}
+
+.title{
+  text-align: center;
+}
+
+#user-attack {
+  display: inline-block;
+  position: relative;
+  left: 250px;
+  top: 435px;
+  padding: 10px 2px;
+  background-color: #C35757;
+  color: #FDD0A9
+}
+
+#player-health {
+  display: inline-block;
+  position: relative;
+  top: 280px;
+  left: 428px;
+}
+
+#enemy-health {
+  display: inline-block;
+  position: relative;
+  top: 325px;
+  left: 28px;
+}
+
+.warrior img{
+  display: inline-block;
+  padding: 0;
+  height: 85px;
+  position: relative;
+  top: 380px;
+  left: 400px;
+}
+
+.warlock img{
+  display: inline-block;
+  height: 65px;
+  position: relative;
+  top: 420px;
+}

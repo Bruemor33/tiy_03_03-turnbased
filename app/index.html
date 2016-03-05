@@ -20,16 +20,23 @@
     <main class="container">  <!--Needs to be dynamic. Bring this into a template after layout is done-->
       <dvi class="row game-start">
         <div class="col-md-6 user-character">
-          <i class="fa fa-user-secret fa-5x"></i>
-          <div id="player-health">
-
+          <div class="button-wrapper">
+            <button id="user-attack" class="button" type="btn btn-warning">Attack</button>
           </div>
-          <button id="user-attack" class="btn" type="warning">Attack</button>
+          <div class="warrior">
+            <img src="/app/images/warrior.png">
+          </div>
+          <div id="player-health">
+            <!-- Placeholder for health values -->
+          </div>
+
         </div>
         <div class="col-md-6 comp-character">
-          <i class="fa fa-linux fa-5x"></i>
+          <div class="warlock">
+            <img src="/app/images/orc.png">
+          </div>
           <div id="enemy-health">
-
+            <!-- Placeholder for health values -->
           </div>
         </div>
       </dvi>
