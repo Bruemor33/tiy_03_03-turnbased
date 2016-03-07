@@ -4,6 +4,7 @@ var jqueryUi = require('jquery-ui');
 
 
 var attackStart = false;
+var 
 
 //**************************************************************************
 //PLAYER AND ENEMY

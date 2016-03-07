@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>tiy_03_03 turnbased</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+    <header class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="title">Welcome Adventurer!</h1>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">  <!--Needs to be dynamic. Bring this into a template after layout is done-->
+      <dvi class="row game-start">
+        <div class="col-md-6 user-character">
+          <div class="button-wrapper">
+            <button id="user-attack" class="button" type="btn btn-warning">Attack</button>
+          </div>
+          <div class="warrior">
+            <img src="/app/images/warrior.png">
+          </div>
+          <div id="player-health">
+            <!-- Placeholder for health values -->
+          </div>
+
+        </div>
+        <div class="col-md-6 comp-character">
+          <div class="warlock">
+            <img src="/app/images/orc.png">
+          </div>
+          <div id="enemy-health">
+            <!-- Placeholder for health values -->
+          </div>
+        </div>
+      </dvi>
+    </main>
+
+    <footer>
+      <div>
+
+      </div>
+    </footer>
+
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
